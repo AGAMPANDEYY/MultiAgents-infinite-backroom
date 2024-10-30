@@ -1,0 +1,4 @@
+fastapi
+uvicorn
+anthropic  # Include any other dependencies your code requires
+openai==0.28

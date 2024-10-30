@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="\static\style.css">
+    <title>Truth Terminal</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Truth Terminal</h1>
+        <div class="responses">
+            <h2>Agent Responses</h2>
+            <div id="agent1-response" class="response"></div>
+            <div id="agent2-response" class="response"></div>
+            <div id="conversation" class="response"></div>
+        </div>
+        <button onclick="getAgentResponse(1)">Get Agent 1 Response</button>
+        <button onclick="getAgentResponse(2)">Get Agent 2 Response</button>
+        <button onclick="getConversation()">Get Conversation</button>
+    </div>
+    
+    <script>
+        async function getAgentResponse(agentNumber) {
+            const response = await fetch(`/agent${agentNumber}`);
+            const data = await response.json();
+            document.getElementById(`agent${agentNumber}-response`).innerText = data.response;
+        }
+
+        async function getConversation() {
+            const response = await fetch('/conversation');
+            const data = await response.json();
+            document.getElementById('conversation').innerText = data.conversation;
+        }
+    </script>
+</body>
+</html>
