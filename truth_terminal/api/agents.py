@@ -1,10 +1,12 @@
 import anthropic
-
+import os
+from dotenv import load_dotenv
 
 class TruthTerminal:
 
     def __init__(self):
-        client=anthropic.Anthropic()
+        api_key=os.getenv("ANTHROPIC_API_KEY")
+        client=anthropic.Anthropic(api_key=api_key)
         self.client = client
         self.conversation = ''
         #agent 1 works as a normal conversation client
