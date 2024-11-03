@@ -16,7 +16,7 @@ body {
 }
 
 h1, h2 {
-    color: #00ff88; /* Greenish text color for terminal-like effect */
+    color: #08b162a0; /* Greenish text color for terminal-like effect */
     text-align: center;
 }
 
@@ -37,12 +37,12 @@ button {
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #00aaff; /* Bright button color */
+    background-color: #08b162a0; /* Bright button color */
     color: #e0e0e0;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #0088cc; /* Darker blue on hover */
+    background-color: #52ffaea0; /* Darker blue on hover */
 }
