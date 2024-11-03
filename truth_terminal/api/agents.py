@@ -57,10 +57,12 @@ class TruthTerminal:
     def get_agent_1_response(self):
          agent_1_response=self.agent_response(system_prompt=self.system_prompt_1,conversation=self.conversation)
          self.conversation+=f"\nAgent 1: {agent_1_response}"
+         return agent_1_response
 
     def get_agent_2_response(self):
          agent_2_response=self.agent_response(system_prompt=self.system_prompt_2,conversation=self.conversation)
          self.conversation+=f"\nAgent 2: {agent_2_response}"
+         return agent_2_response
     
     def get_conversation_response(self):
         return self.conversation
