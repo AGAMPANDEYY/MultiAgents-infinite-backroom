@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text for readability */
     margin: 0;
     padding: 20px;
 }
@@ -9,12 +10,13 @@ body {
     max-width: 600px;
     margin: auto;
     padding: 20px;
-    background: #fff;
+    background: #1f1f1f; /* Dark container background */
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
 }
 
-h1 {
+h1, h2 {
+    color: #00ff88; /* Greenish text color for terminal-like effect */
     text-align: center;
 }
 
@@ -23,22 +25,24 @@ h1 {
 }
 
 .response {
-    background-color: #eaeaea;
+    background-color: #333333; /* Dark response box */
+    color: #e0e0e0;
     padding: 10px;
     margin: 10px 0;
     border-radius: 5px;
 }
+
 button {
     margin: 5px;
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #007BFF;
-    color: white;
+    background-color: #00aaff; /* Bright button color */
+    color: #e0e0e0;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #0088cc; /* Darker blue on hover */
 }
