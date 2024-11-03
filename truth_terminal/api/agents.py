@@ -6,6 +6,8 @@ class TruthTerminal:
 
     def __init__(self):
         api_key=os.getenv("ANTHROPIC_API_KEY")
+        if not api_key:
+            raise ValueError("Anthropic API key is not set.")
         client=anthropic.Anthropic(api_key=api_key)
         self.client = client
         self.conversation = ''

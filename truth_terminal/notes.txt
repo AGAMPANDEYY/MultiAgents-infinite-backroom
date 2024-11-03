@@ -1,3 +1,11 @@
 export ANTHROPIC_API_KEY="your_api_key_here"
 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
 uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+
+
+USING VERCEL COMMANDS
+
+npm i -g vercel #to isntall vercel in cli 
+vercel .
+
+
