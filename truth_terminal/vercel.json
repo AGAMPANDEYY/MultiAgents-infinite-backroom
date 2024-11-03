@@ -5,6 +5,9 @@
     ],
     "routes": [
       { "src": "/(.*)", "dest": "api/main.py" }
-    ]
+    ],
+    "env": {
+      "ANTHROPIC_API_KEY": "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"
+    }
   }
   
