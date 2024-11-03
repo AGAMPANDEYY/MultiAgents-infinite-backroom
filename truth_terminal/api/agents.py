@@ -2,6 +2,8 @@ import anthropic
 import os
 from dotenv import load_dotenv
 
+load_dotenv()
+
 class TruthTerminal:
 
     def __init__(self):
