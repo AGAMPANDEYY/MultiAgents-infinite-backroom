@@ -4,7 +4,7 @@ class TruthTerminalOpenAI:
 
     def __init__(self):
         # Initialize the OpenAI client
-        openai.api_key = "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" 
+        openai.api_key = "API KEY" 
         self.conversation = ''
         
         # Agent 1 works as a normal conversation client
