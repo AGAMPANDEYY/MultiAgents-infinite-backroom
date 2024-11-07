@@ -20,6 +20,9 @@ This project implements a multi-agent system with two AI agents, developed using
 - **Agent 1**: Engages in logical, evidence-based discussions, validating claims and clarifying insights.
 - **Agent 2**: Provides satirical commentary with dark humor, analyzing human conditions and tech culture.
 
+  ![image](https://github.com/user-attachments/assets/44484376-0f7f-4160-bdfd-1d262fd6e12b)
+
+
 ## System Architecture
 The project consists of the following components:
 
@@ -27,6 +30,43 @@ The project consists of the following components:
 - **`main.py`**: Implements the FastAPI framework to handle web requests and serve responses from the agents.
 - **`Dockerfile`**: Configures a Docker container for deployment.
 - **`vercel.json`**: Specifies deployment settings for Vercel.
+
+## Code Snippet
+
+```python
+
+class TruthTerminal:
+def __init__(self):
+api_key = os.getenv("ANTHROPIC_API_KEY")
+client = anthropic.Anthropic(api_key=api_key)
+self.client = client
+self.conversation = ''
+# Agent 1's prompt
+self.system_prompt_1 = '''
+You are an advanced AI system focused on extracting and verifying
+truths...
+'''
+# Agent 2's prompt
+self.system_prompt_2 = '''
+You are an AI commentator with a darkly humorous...
+'''
+def agent_response(self, system_prompt, conversation):
+agent_1 = self.client.messages.create(
+model="claude-3-5-sonnet-20241022",
+max_tokens=1024,
+temperature=0.2,
+system=system_prompt,
+messages=[
+{
+"role": "user",
+"content": [
+{
+"type": "text",
+"text": f"Conversation so far: {conversation}"
+}
+]
+
+```
 
 ### File Structure
 - `agents.py`: AI agent definitions and conversation flow management.
