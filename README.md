@@ -7,6 +7,9 @@ A multi-agent AI framework designed to enable infinite backroom conversations, i
 ## Live Demo
 Access the live app here: [Truth Terminal Deployment](https://truth-terminal-rihmh172d-agampandeys-projects.vercel.app/)
 
+![image](https://github.com/user-attachments/assets/87677479-e2be-4aa2-8931-e014384e3769)
+
+
 Watch the [Video Demo on Loom](https://www.loom.com/share/aae0cfa204364b17837a1739daa9e186?sid=17ae821f-d1c8-43ee-aa9c-40d03e754d8d).
 
 
