@@ -4,6 +4,11 @@ A multi-agent AI framework designed to enable infinite backroom conversations, i
 
 ![image](https://github.com/user-attachments/assets/97ddff14-501c-4639-afde-16a3e12791cc)
 
+## Live Demo
+Access the live app here: [Truth Terminal Deployment](https://truth-terminal-rihmh172d-agampandeys-projects.vercel.app/)
+
+Watch the [Video Demo on Loom](https://www.loom.com/share/aae0cfa204364b17837a1739daa9e186?sid=17ae821f-d1c8-43ee-aa9c-40d03e754d8d).
+
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -129,7 +134,4 @@ To deploy the application:
 - [Docker Documentation](https://docs.docker.com)
 - [Vercel Documentation](https://vercel.com/docs)
 
-## Live Demo
-Access the live app here: [Truth Terminal Deployment](https://truth-terminal-rihmh172d-agampandeys-projects.vercel.app/)
 
-Watch the [Video Demo on Loom](https://www.loom.com/share/aae0cfa204364b17837a1739daa9e186?sid=17ae821f-d1c8-43ee-aa9c-40d03e754d8d).
