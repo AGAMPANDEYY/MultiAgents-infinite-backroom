@@ -125,11 +125,6 @@ To deploy the application:
 - **Voice Interaction**: Integrate voice recognition for interactive experiences.
 - **Mobile Compatibility**: Develop a mobile-responsive version.
 
-## Team Members
-- **Agam Pandey** - Developed core algorithms.
-- **Riya** - Worked on ML model training and optimization.
-- **Krish Sharma** - Experimented with new AI techniques to improve performance.
-
 ## References
 - [IBM - What are AI Agents?](https://www.ibm.com/think/topics/ai-agents)
 - [Anthropic API Documentation](https://www.anthropic.com)
